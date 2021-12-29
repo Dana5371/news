@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+    <title>Registration</title>
+
+</head>
+<body>
+    <h1>Register</h1>
+    <a href="{% url 'doctor-register' %}">I am a DOCTOR</a><br>
+    <a href="{% url 'patient-register' %}">I am a patient</a>
+</body>
+</html>
+{% endblock %}
